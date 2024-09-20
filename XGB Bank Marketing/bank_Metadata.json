@@ -1,0 +1,24 @@
+{
+    "description": "This dataset contains banking and campaign data for clients for a Portuguese financial institution",
+    "columns": {
+        "age" : "numeric",
+        "job" : " job_type, categorical : ['admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown']",
+        "marital" : " marital_status, categorical : ['divorced','married','single','unknown']; note: 'divorced' means divorced or widowed",
+        "education" : "categorical : ['primary', 'secondary', 'tertiary', 'unknown']",
+        "default" : "has credit in default?, categorical : ['no','yes','unknown']",
+        "housing" : "has housing loan?, categorical : ['no','yes','unknown']",
+        "loan" : "has personal loan?, categorical : ['no','yes','unknown']",
+        "balance" : "banking balance, numeric",
+        "contact" : "contact communication type, categorical : ['cellular','telephone']",
+        "month" : "last contact month of year, categorical : ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']",
+        "day" : "numeric",
+        "duration" : "last contact duration in seconds, numeric",
+        "campaign" : "number of contacts performed during this campaign and for this client, numeric",
+        "pdays" : "number of days that passed by after the client was last contacted from a previous campaign, numeric",
+        "previous" : "number of contacts performed before this campaign and for this client, numeric",
+        "poutcome" : "outcome of the previous marketing campaign, categorical : ['failure','nonexistent','success']",
+        "y" : "has the client subscribed a term deposit?, binary : ['yes','no']"
+    },
+    "source" : "[Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data Driven Approach to Predict Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014",
+    "author" : "Janio Martinez"
+}
